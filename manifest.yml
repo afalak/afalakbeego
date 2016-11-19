@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 32M
+  instances: 1
+  name: afalakbeego
+  host: afalakbeego
+  disk_quota: 102M
+  command: afalakbeego
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
